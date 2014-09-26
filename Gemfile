@@ -7,6 +7,9 @@ gem 'rails', '4.1.4'
 gem 'sqlite3'
 #gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
+gem 'ZenTest'
+gem 'autotest-rails-pure'
+gem 'webrat'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :development do 
@@ -17,4 +20,5 @@ end
 group :test do 
 	#gem 'rspec', '2.0.0.beta.18'
 	gem 'rspec', '2.8'
+	gem 'minitest'
 end
